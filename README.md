@@ -5,6 +5,11 @@ Enabling a LLM system to query structured data can be qualitatively different fr
 ## Introduction
 This tutorial was made following the Lanchain Doc's guide on how to create a Question-Answering system over tabular data. The guide is available [here](https://docs.lanternai.com/docs/question-answering-system-over-tabular-data). It was done for educational purposes and to understand how to create a Q&A system over tabular data.
 
+## Methods
+There are two main methods to create a Q&A system over tabular data.
+
+We will cover implementations using both chains and agents. These systems will allow us to ask a question about the data in a database and get back a natural language answer. The main difference between the two is that our agent can query the database in a loop as many times as it needs to answer the question.
+
 ## Architecture
 
 At a high-level, the steps of these systems are:
